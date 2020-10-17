@@ -1,0 +1,42 @@
+.B0{
+    height: 500px;
+    width: 400px;
+    margin: 70px;
+    animation-name: m;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
+    font-size: 109px;
+    border-radius: 300px;
+}
+@keyframes m {
+    0%{
+        color: #ff9a63;
+    }
+    3% {
+        color: #c9ff97;
+    }
+    100% {
+        color: rgba(251,255,237,0.62);
+    }
+    67%{
+        color: #ffceff;
+     }
+    30% {
+        color: rgba(12,199,255,0.62);
+    }
+    36%{
+        color: rgba(196,194,255,0.62);
+    }
+    50% {
+        color: white;
+    }
+    55% {
+        color: #fefff2;
+    }
+    70%{
+        color: #dfe0d5;
+    }
+    80%{
+        color: #a7a3a6;
+    }
+}
